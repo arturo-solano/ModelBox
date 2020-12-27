@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+figure {
+    padding-left: 15px;
+    width: 200px;
+}
+
+figure  img {
+    width: 100px;
+}
+
+.ull {
+    width: 200px;
+}
+
+ul {
+    width: 200px;
+}
