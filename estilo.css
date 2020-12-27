@@ -17,13 +17,18 @@ figure {
 }
 
 figure  img {
-    width: 100px;
+    width: 200px;
 }
 
 .ull {
-    width: 200px;
+    width: 700px;
+    margin-right: 8rem;
+    display:flex;
+    align-content: center;
 }
 
 ul {
     width: 200px;
+    padding-top: 10px;
+    
 }
