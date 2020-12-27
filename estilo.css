@@ -1,29 +1,18 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-header {
+.contenido {
+    border: 1px solid red;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: row;
+    height: 400px;
 }
 
-figure {
-    padding-left: 15px;
-    width: 200px;
+section {
+    border: 1px solid blue;
+    height: 400px;
+    width: 46%;
 }
 
-figure  img {
-    width: 100px;
-}
-
-.ull {
-    width: 200px;
-}
-
-ul {
-    width: 200px;
+aside {
+    border: 1px solid blue;
+    height: 400 px;
+    width: 46%;
 }
