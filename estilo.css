@@ -1,11 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-header {
+.contenido {
+    border: 1px solid red;
     display: flex;
+
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100%;
@@ -31,4 +27,18 @@ ul {
     width: 200px;
     padding-top: 10px;
     
+    flex-direction: row;
+    height: 400px;
+}
+
+section {
+    border: 1px solid blue;
+    height: 400px;
+    width: 46%;
+}
+
+aside {
+    border: 1px solid blue;
+    height: 400 px;
+    width: 46%;
 }
