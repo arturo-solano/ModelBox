@@ -1,6 +1,32 @@
 .contenido {
     border: 1px solid red;
     display: flex;
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+figure {
+    padding-left: 15px;
+    width: 200px;
+}
+
+figure  img {
+    width: 200px;
+}
+
+.ull {
+    width: 700px;
+    margin-right: 8rem;
+    display:flex;
+    align-content: center;
+}
+
+ul {
+    width: 200px;
+    padding-top: 10px;
+    
     flex-direction: row;
     height: 400px;
 }
